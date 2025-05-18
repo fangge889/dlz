@@ -16,5 +16,11 @@ hexo server
 npm install -g hexo-cli
 # 进入项目目录，安装项目依赖
 npm install
+# 生成静态文件 
+hexo generate
+# 部署你的网站
+hexo deploy
+# 清除缓存文件
+hexo clean
 # 启动开发服务器
 hexo server

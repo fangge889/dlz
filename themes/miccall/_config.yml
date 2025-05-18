@@ -55,7 +55,7 @@ Gallery :
 # Custom code Render System 自定义代码渲染 
 # default dark funky okaidia twilight coy solarized  可选项  
 # link to review : http://prismjs.com/index.html   官网预览
-prism: coy
+prism: okaidia
 
 # Custom Fonts
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
@@ -87,13 +87,13 @@ comment:
 # Available value:
 #     swiftype | google | local
 search:
-    use: google
+    use: local
     swiftype_key: Just another fine responsive  
     
 
 # Leancloud Views
 leancloud:
-    enable: false
+    enable: true
     app_id: #你的 app_id
     app_key: #你的 app_key
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
